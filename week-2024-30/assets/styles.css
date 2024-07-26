@@ -1,0 +1,27 @@
+body.light {
+    .graph-cards, .filter-card {
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.5);
+        box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.5);
+        padding: 5px;
+        background: white;
+    }
+}
+
+body.dark {
+    .graph-cards, .filter-card {
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.5);
+        box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.5);
+        padding: 5px;
+        background: #111111;
+    }
+}
+
+.dash-graph[data-dash-is-loading="true"] {
+    .js-plotly-plot {
+        opacity: 50%
+    }
+}
